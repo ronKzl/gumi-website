@@ -55,5 +55,37 @@
     font-size: var(--size-sm);
 }
 
+/* md */
+@media (min-width: 768px) {
+    .mobile-nav__link{
+        font-size: var(--size-3xl);
+    }
+    .mobile-nav__sun{
+        width: var(--size-2xl);
+        height: var(--size-2xl); 
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .mobile-nav__link{
+        font-size: var(--size-4xl);
+    }
+    .mobile-nav__sun{
+        width: var(--size-3xl);
+        height: var(--size-3xl); 
+    }
+}
+
+/* xL */
+@media (min-width: 1280px) {
+    .mobile-nav__link{
+        font-size: var(--size-5xl);
+    }
+    .mobile-nav__sun{
+        width: var(--size-4xl);
+        height: var(--size-4xl); 
+    }
+}
 
 

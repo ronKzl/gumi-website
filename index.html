@@ -12,90 +12,87 @@
     <link rel="stylesheet" href="./styles/modern-normalize.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/components/header.css" />
-    <link rel="stylesheet" href="./styles/components/hero.css" />
     <link rel="stylesheet" href="./styles/components/about.css" />
-    <link rel="stylesheet" href="./styles/components/featured.css" />
-    <link rel="stylesheet" href="./styles/components/work.css" />
-    <link rel="stylesheet" href="./styles/components/contact.css" />
     <link rel="stylesheet" href="./styles/components/footer.css" />
     <link rel="stylesheet" href="./styles/components/mobile-nav.css" />
     <link rel="stylesheet" href="./styles/utils.css" />
   </head>
   <body>
+    <!-- Over the top fader -->
+    <div class="black__overlay">
+      <img class="black__overlay-img" src="https://placehold.co/200x79" />
+    </div>
+    <!-- Header -->
     <header class="container">
       <ul class="header__menu">
-          <li class="logo__img"><a class="header__link" href="./"><img class="home__img"
-              src="https://placehold.co/100"
-              data-src="https://placehold.co/100"
-              alt="main logo"
-            /></a></li>
-            
-              <div class="sort">
-                <a class="header__link header__opener" href="#">Menu</a>
-                <a class="header__link" href="./gallery.html">Gallery</a>
-            </div>
-          
+        <li class="logo__img">
+          <a class="header__link" href="./"
+            ></a>
+        </li>
+
+        <div class="sort">
+          <a class="header__link header__opener" href="#">Menu</a>
+          <a class="header__link" href="./gallery.html">Gallery</a>
+        </div>
       </ul>
-  </header>
-  <!-- Mobile Nav -->
-  <div class="mobile-nav">
-    <nav>
-      <ul class="mobile-nav__menu">
-        <li>
-          <a class="mobile-nav__link" href="#">Gallery</a>
-        </li>
-        <br>
-        <br>
-        <li>
-          <a class="mobile-nav__link" href="#">Twitter</a>
-        </li>
-        <li>
-          <a class="mobile-nav__link" href="#">Yotube</a>
-        </li>
-        <li>
-          <a class="mobile-nav__link" href="#">Instagram</a>
-        </li>
-        <li>
-          <a class="mobile-nav__link" href="#">Link 1</a>
-        </li>
-        <li>
-          <a class="mobile-nav__link" href="#">Link 2</a>
-        </li>
-        <li class="mobile-nav__link-line"></li>
-        <li>
-          <button id="theme-toggle" class="mobile-nav__sun">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="currentColor"
-            >
-              <path
-                d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM18.894 6.166a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59ZM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75ZM17.834 18.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591ZM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18ZM7.758 17.303a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59ZM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12ZM6.697 7.757a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591Z"
-              />
-            </svg>
-          </button>
-        </li>
-      </ul>
-    </nav>
-  </div>
-  <!-- End of Mobile Nav -->
-    <main>
-      <section class="hero container">
-        <img
-            class="about__img"
-            src="https://placehold.co/1024"
-            data-src="https://placehold.co/1024"
-            alt="profile picture"
-          />
-    </main>
+    </header>
+    <!-- Mobile Nav -->
+    <div class="mobile-nav">
+      <nav>
+        <ul class="mobile-nav__menu">
+          <li>
+            <a class="mobile-nav__link" href="./gallery.html">Gallery</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#">Twitter</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#">Yotube</a>
+          </li>
+          <br />
+          <br />
+          <li>
+            <a class="mobile-nav__link" href="#">Instagram</a>
+          </li>
+
+          <li>
+            <a class="mobile-nav__link" href="#">Link 1</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#">Link 2</a>
+          </li>
+          <li class="mobile-nav__link-line"></li>
+          <li>
+            <button id="theme-toggle" class="mobile-nav__sun">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM18.894 6.166a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59ZM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75ZM17.834 18.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591ZM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18ZM7.758 17.303a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59ZM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12ZM6.697 7.757a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591Z"
+                />
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- End of Mobile Nav -->
+    <img
+      class="main__img"
+      src="https://placehold.co/1024"
+      data-src="https://placehold.co/1024"
+      alt="profile picture"
+    />
     <footer class="footer container section">
-      <img
-            class="about__img"
-            src="https://placehold.co/200x79"
-            data-src="https://placehold.co/200x79"
-            alt="profile picture"
-          />
-      <h3 class="footer__title">- Ron Stuchevsky 2024&#169; -</h3>
+      <a class="footer__link" href="./"
+        ><img
+          class="footer__img"
+          src="https://placehold.co/200x79"
+          data-src="https://placehold.co/200x79"
+          alt="profile picture"
+      /></a>
     </footer>
     <script type="module" src="src/main.js"></script>
     <script src="src/mobile-nav.js"></script>
