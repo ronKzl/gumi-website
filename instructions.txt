@@ -1,0 +1,26 @@
+~Instructions~
+
+1. Place pictures in public folder and reference them from there.
+2. If you want lazy loading on some of the pictures reference the location in the data-src atrribute instead of the src one
+and make sure both the 'lazy' and 'loading' classes are applied
+3. Font sizes, font family, scroll bar settings and all colors used in project are found in styles.css change them there. 
+    (The default displayed color pallete is dark mode.)
+4. To properly change to a font family make sure you import the font/reference a cdn link in both html files then adjust css apropriately.
+5. Nav Links are empty place desired link in the href attribute.
+
+~Changes~
+
+Globally:
+*Added Light Mode (Adjusted from nav and stored between reloads)
+*Added more spacing and padding for regular desktop and 4k screens 
+
+On welcome page:
+Removed:
+No picture in the nav - it just breaks on desktop view idk how to fix
+You don't need to click on the page to enter it - removed because this sucks balls on mobile to have to click the page.
+
+On Gallery page:
+Added Side padding for large/curved desktops - better compatibility with more devices that way
+
+
+
