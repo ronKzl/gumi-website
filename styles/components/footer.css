@@ -42,8 +42,19 @@
   align-items: center;
   backdrop-filter: blur(20px);
   animation: fadeOut 3.5s forwards;
-  pointer-events: none;
 }
+
+.black__overlay-img{
+  display: none;
+}
+
+.black__click{
+  font-size: var(--size-4xl);
+  font-weight: 400;
+  color: var(--color-white);
+}
+
+
 
 @keyframes fadeOut {
   from {
@@ -52,4 +63,25 @@
   to {
       opacity: 0;
   }
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+
+/* sm */
+@media (min-width: 640px) {
+    .black__overlay{
+      animation: none;
+      
+    }
+    .black__click{
+      cursor: pointer;
+    }
 }

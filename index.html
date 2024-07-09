@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="./public/favicon.ico" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -23,9 +23,14 @@
     <!-- Over the top fader -->
 
     <div class="black__overlay">
-      <!-- <img class="black__overlay-img" src="https://placehold.co/200x79" /> -->
-      <a id="click">Click to Enter</a>
+      <img
+        id="click__img"
+        class="black__overlay-img"
+        src="https://placehold.co/600x300"
+      />
+      <a id="click" class="black__click"></a>
     </div>
+    <audio id="background-music" src="public/AriaMath.mp3" loop></audio>
     <!-- Header -->
     <header class="container">
       <ul class="header__menu">
