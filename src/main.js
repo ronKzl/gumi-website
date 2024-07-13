@@ -5,6 +5,7 @@ const img = document.getElementById("click__img");
 //Integration hell
 document.addEventListener("DOMContentLoaded", function () {
   // Check if the window width is more than 640 pixels
+  audio.volume = 0.5;
   if (window.innerWidth >= 640) {
     btn.textContent = "CLICK TO ENTER"; //Start the mobile thingy
   } else {
